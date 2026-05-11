@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>NEXARA - Joyería</title>
+ <style>
+ body {
+ margin: 0;
+ font-family: 'Georgia', serif;
+ background: #fff;
+ color: #222;
+ font-size: 18px; /* Texto normal más grande */
+ }
+ /* NAVBAR */
+ header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 40px;
+ border-bottom: 1px solid #eee;
+ }
+ nav a {
+ margin: 0 15px;
+ text-decoration: none;
+ color: #333;
+ font-size: 18px;
+ }
+ /* HERO */
+ .hero {
+ background: url('https://images.unsplash.com/photo-1605100804763-247f67b3557e') center/cover;
+ height: 500px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ text-align: center;
+ }
+ .hero h1 {
+ font-size: 45px;
+ }
+ /* FEATURES */
+ .features {
+ display: flex;
+ justify-content: space-around;
+ padding: 40px;
+ text-align: center;
+ }
+ .feature {
+ width: 250px;
+ }
+ .feature p {
+ font-size: 17px;
+ }
+
+ /* --- ESTILOS DE LA TABLA AMPLIADA --- */
+ .collections {
+ padding: 40px;
+ text-align: center;
+ }
+ .collections h2 {
+ font-size: 32px;
+ margin-bottom: 30px;
+ }
+ .product-table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-top: 20px;
+ font-size: 20px; /* Texto de la tabla más grande */
+ }
+ .product-table th, .product-table td {
+ border: 1px solid #ccc;
+ padding: 25px; /* Más espacio interno */
+ text-align: center;
+ }
+ .product-table th {
+ background-color: #f2f2f2;
+ font-weight: bold;
+ font-size: 22px;
+ }
+ .product-table img {
+ width: 250px; /* Imágenes mucho más amplias */
+ height: auto;
+ border-radius: 8px;
+ }
+ .price {
+ color: #e67e22;
+ font-weight: bold;
+ font-size: 24px; /* Precios resaltados */
+ }
+
+ /* ABOUT */
+ .about {
+ background: #f8f8f8;
+ padding: 60px 40px;
+ text-align: center;
+ }
+ .about p {
+ font-size: 20px;
+ line-height: 1.6;
+ }
+ /* CONTACT */
+ .contact {
+ padding: 60px 40px;
+ text-align: center;
+ }
+ .contact p {
+ font-size: 19px;
+ }
+ footer {
+ background: #111;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ }
+ </style>
+</head>
+<body>
+
+<header>
+ <h2>NEXARA</h2>
+ <nav>
+ <a href="#">Inicio</a>
+ <a href="#">Anillos Promesa</a>
+ <a href="#">Compromiso</a>
+ <a href="#">Matrimonio</a>
+ <a href="#">¿Quiénes somos?</a>
+ <a href="#">Contacto</a>
+ </nav>
+</header>
+
+<section class="hero">
+ <div>
+ <h1>NEXARA DONDE NACE TU BRILLO</h1>
+ <p>Plata 925 · Moissanite · Diseños exclusivos</p>
+ </div>
+</section>
+
+<section class="features">
+ <div class="feature">
+ <h3>Compra segura</h3>
+ <p>Pagos con tarjeta, transferencia o contra entrega</p>
+ </div>
+ <div class="feature">
+ <h3>Alta calidad</h3>
+ <p>Plata 925 y materiales premium</p>
+ </div>
+ <div class="feature">
+ <h3>Envíos</h3>
+ <p>Entregas en toda Guatemala</p>
+ </div>
+ <div class="feature">
+ <h3>Diseño premium</h3>
+ <p>Joyas elegantes y duraderas</p>
+ </div>
+</section>
+
+<section class="collections">
+ <h2>Catálogo de Productos</h2>
+ <table class="product-table">
+ <thead>
+ <tr>
+ <th>Imagen de la Joya</th>
+ <th>Descripción Detallada</th>
+ <th>Precio Actual</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td><img src="argolla-lisa.jpg" alt="Argolla Lisa"></td>
+ <td>Argolla Lisa de Matrimonio en Plata de Ley 925</td>
+ <td class="price">Q389.00</td>
+ </tr>
+ <tr>
+ <td><img src="argolla-zirconias.jpg" alt="Argolla Zirconias"></td>
+ <td>Argolla de Plata 925 con Zirconia Cúbica</td>
+ <td class="price">Q329.00</td>
+ </tr>
+ <tr>
+ <td><img src="churumbela-oro.jpg" alt="Churumbela Oro"></td>
+ <td>Churumbela en Plata 925 con Baño de Oro 14k</td>
+ <td class="price">Q249.00</td>
+ </tr>
+ <tr>
+ <td><img src="anillo-brillo-dorado.jpg" alt="Anillo Brillo Dorado"></td>
+ <td>Anillo "Brillo Dorado" en Plata 925 con Baño de Oro 11k y Zirconias</td>
+ <td class="price">Q255.00</td>
+ </tr>
+ <tr>
+ <td><img src="eternidad-brillante.jpg" alt="Eternidad Brillante"></td>
+ <td>Anillo "Eternidad Brillante" — Plata 925 con Zirconias</td>
+ <td class="price">Q299.00</td>
+ </tr>
+ <tr>
+ <td><img src="argolla-infinita.jpg" alt="Argolla Infinita"></td>
+ <td>Argolla infinita de plata de ley 925 con zirconias en todo su alrededor</td>
+ <td class="price">Q429.00</td>
+ </tr>
+ <tr>
+ <td><img src="cadena-halo.jpg" alt="Cadena Halo"></td>
+ <td>Cadena estilo Halo en plata 925 y zirconias</td>
+ <td class="price">Q399.00</td>
+ </tr>
+ <tr>
+ <td><img src="collar-corazon-flechado.jpg" alt="Collar Corazón"></td>
+ <td>Collar de corazón flechado en plata 925 con baño de rodio</td>
+ <td class="price">Q329.00</td>
+ </tr>
+ <tr>
+ <td><img src="corazones-unidos.jpeg" alt="Corazones Unidos"></td>
+ <td>Anillos de Pareja</td>
+ <td class="price">Q523.00</td>
+ </tr>
+ <tr>
+ <td><img src="anillo-zirconias.jpeg" alt="Anillo Circonias"></td>
+ <td>Anillo de Plata 925 con
+Baño de Oro 18k y
+Diseño de Corazones con Zirconias</td>
+ <td class="price">Q329.00</td>
+ </tr>
+  <tr>
+ <td><img src="anillo-olivo.jpeg" alt="Corona de Olivo"></td>
+ <td>Anillo "Corona de Olivo" en Plata 925 con Zirconias</td>
+ <td class="price">Q329.00</td>
+ </tr>
+  <tr>
+ <td><img src="anillo-solitario.jpeg" alt="Anillo Solitario"></td>
+ <td>Anillo Solitario Corte Princesa en Plata 925 con Zirconia - Baño de Oro ó Rodio</td>
+ <td class="price">Q449.00</td>
+ </tr>
+  <tr>
+ <td><img src="anillo-infinito.jpeg" alt="Anillo Infinito"></td>
+ <td>Anillos "Infinito de Luz". Plata 925 con Zirconia Cúbica</td>
+ <td class="price">449.00</td>
+ </tr>
+  <tr>
+ <td><img src="anillo-zafiro.jpeg" alt="Anillo Zafiro"></td>
+ <td>Anillos "Corazón de Zafiro" - Plata 925 con Zirconia Azul </td>
+ <td class="price">Q369.00</td>
+ </tr>
+  <tr>
+ <td><img src="anillo-esmeralda.jpeg" alt="Anillo Aura"></td>
+ <td>Anillo "Aurora Mística Esmeralda" Plata 925 con Baño de Oro</td>
+ <td class="price">Q329.00</td>
+ </tr>
+  <tr>
+ <td><img src="cadena-delfin.jpeg" alt="Cadena Delfín"></td>
+ <td>Cadena delfín tornasol en plata 925</td>
+ <td class="price">Q369.00</td>
+ </tr>
+  <tr>
+ <td><img src="cadena-cisne.jpeg" alt="Cadena Cisne"></td>
+ <td>Collar cisne elegante con cristal iridiscente plata 925 </td>
+ <td class="price">Q339.00</td>
+ </tr>
+  <tr>
+ <td><img src="cadena-mariposa.jpeg" alt="Cadena Mariposa"></td>
+ <td>Collar con un diseño moderno de mariposa fabricado en plata 925</td>
+ <td class="price">Q369.00</td>
+ </tr>
+  <tr>
+ <td><img src="cadena-opalo.jpeg" alt="Cadena Opalo"></td>
+ <td>Collar de corazoón de opalo en forma de corazón en plata 925</td>
+ <td class="price">Q599.00</td>
+ </tr>
+  <tr>
+ <td><img src="cadena-trebol.jpeg" alt="Cadena Trebol"></td>
+ <td>Collar de trébol de cuatro hojas en plata 925</td>
+ <td class="price">Q399.00</td>
+ </tr>
+  <tr>
+ <td><img src="gargantilla-plata.jpeg" alt="Gargantilla de Plata"></td>
+ <td>Garagantilla de plata 925 con zirconias de mariposas</td>
+ <td class="price"></td>
+ </tr>
+  <tr>
+ <td><img src="cadena-corazon de plata.jpeg" alt="Cadena corazón de Plata"></td>
+ <td>Collar clásico en dorma de corazón en plata 925</td>
+ <td class="price">Q261.00</td>
+ </tr>
+  <tr>
+ <td><img src="cadena-atrapasueños.jpeg" alt="Collar Atrapasueños"></td>
+ <td>Collar atrapasueños en plata 925 con piedra moonslone</td>
+ <td class="price">Q399.00</td>
+ </tr>
+ </tbody>
+ </table>
+</section>
+
+<section class="about">
+ <h2>¿Quiénes somos?</h2>
+ <p>Somos una empresa de joyería dedicada al diseño, creación y venta de piezas únicas que combinan elegancia, calidad y estilo. Nos especializamos en elaborar joyas con materiales de alta calidad, pensadas para resaltar la belleza y personalidad de cada cliente.</p>
+</section>
+
+<section class="contact">
+ <h2>Contacto</h2>
+ <p>WhatsApp: +502 5555-7890</p>
+ <p>Nos puedes ubicar en: Avenida Reforma 12-45, Zona 10, Ciudad de Guatemala</p>
+</section>
+
+<footer>
+ <p>© 2026 NEXARA - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
